@@ -1,0 +1,267 @@
+2022-02-28T08:07:07+00:00 CRITICAL Uncaught Error: Call to undefined function createAttribute() in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:32
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include()
+#1 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-blog-header.php(13): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\index.php(17): require('E:\\OpenServer\\d...')
+#5 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 32
+
+2022-02-28T08:07:08+00:00 CRITICAL Uncaught Error: Call to undefined function createAttribute() in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:32
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include()
+#1 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-blog-header.php(13): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\index.php(17): require('E:\\OpenServer\\d...')
+#5 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 32
+
+2022-02-28T08:20:55+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function update_post_meta(), 2 passed in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 28 and at least 3 expected in E:\OpenServer\domains\noorlogic\wp-includes\post.php:2530
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php(28): update_post_meta('_product_attrib...', Array)
+#1 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\wp-admin\admin-ajax.php(22): require_once('E:\\OpenServer\\d...')
+#5 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-includes\post.php on line 2530
+
+2022-02-28T08:20:58+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function update_post_meta(), 2 passed in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 28 and at least 3 expected in E:\OpenServer\domains\noorlogic\wp-includes\post.php:2530
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php(28): update_post_meta('_product_attrib...', Array)
+#1 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\wp-blog-header.php(13): require_once('E:\\OpenServer\\d...')
+#5 E:\OpenServer\domains\noorlogic\index.php(17): require('E:\\OpenServer\\d...')
+#6 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-includes\post.php on line 2530
+
+2022-02-28T08:20:58+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function update_post_meta(), 2 passed in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 28 and at least 3 expected in E:\OpenServer\domains\noorlogic\wp-includes\post.php:2530
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php(28): update_post_meta('_product_attrib...', Array)
+#1 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\wp-blog-header.php(13): require_once('E:\\OpenServer\\d...')
+#5 E:\OpenServer\domains\noorlogic\index.php(17): require('E:\\OpenServer\\d...')
+#6 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-includes\post.php on line 2530
+
+2022-02-28T08:55:43+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function auto_add_product_attributes(), 1 passed in E:\OpenServer\domains\noorlogic\wp-includes\class-wp-hook.php on line 309 and exactly 3 expected in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:42
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-includes\class-wp-hook.php(309): auto_add_product_attributes(25)
+#1 E:\OpenServer\domains\noorlogic\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 E:\OpenServer\domains\noorlogic\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 E:\OpenServer\domains\noorlogic\wp-includes\post.php(4687): do_action('save_post', 25, Object(WP_Post), true)
+#4 E:\OpenServer\domains\noorlogic\wp-includes\post.php(4789): wp_insert_post(Array, false, true)
+#5 E:\OpenServer\domains\noorlogic\wp-admin\includes\post.php(426): wp_update_post(Array)
+#6 E:\OpenServer\domains\noorlogic\wp-admin\post.php(227): edit_post()
+#7 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 42
+
+2022-02-28T08:57:46+00:00 CRITICAL Uncaught Error: Call to undefined function createAttribute() in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:55
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include()
+#1 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-admin\admin-ajax.php(22): require_once('E:\\OpenServer\\d...')
+#4 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 55
+
+2022-02-28T08:58:11+00:00 CRITICAL syntax error, unexpected '{' in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 78
+
+2022-02-28T08:58:14+00:00 CRITICAL syntax error, unexpected '{' in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 78
+
+2022-02-28T08:58:17+00:00 CRITICAL syntax error, unexpected '{' in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 78
+
+2022-02-28T08:58:31+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:85
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php(95): createTerm('Red', 'my-red', 'pa_my-colors', 10)
+#1 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\wp-admin\admin.php(34): require_once('E:\\OpenServer\\d...')
+#5 E:\OpenServer\domains\noorlogic\wp-admin\edit.php(10): require_once('E:\\OpenServer\\d...')
+#6 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 85
+
+2022-02-28T08:58:32+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:85
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php(95): createTerm('Red', 'my-red', 'pa_my-colors', 10)
+#1 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\wp-blog-header.php(13): require_once('E:\\OpenServer\\d...')
+#5 E:\OpenServer\domains\noorlogic\index.php(17): require('E:\\OpenServer\\d...')
+#6 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 85
+
+2022-02-28T08:58:47+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:85
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php(95): createTerm('Red', 'my-red', 'pa_my-colors', 10)
+#1 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\wp-admin\admin-ajax.php(22): require_once('E:\\OpenServer\\d...')
+#5 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 85
+
+2022-02-28T08:59:00+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:85
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php(94): createTerm('Red', 'my-red', 'pa_my-colors', 10)
+#1 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\wp-admin\admin.php(34): require_once('E:\\OpenServer\\d...')
+#5 E:\OpenServer\domains\noorlogic\wp-admin\edit.php(10): require_once('E:\\OpenServer\\d...')
+#6 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 85
+
+2022-02-28T08:59:01+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:85
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php(94): createTerm('Red', 'my-red', 'pa_my-colors', 10)
+#1 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\wp-blog-header.php(13): require_once('E:\\OpenServer\\d...')
+#5 E:\OpenServer\domains\noorlogic\index.php(17): require('E:\\OpenServer\\d...')
+#6 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 85
+
+2022-02-28T08:59:14+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:85
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php(94): createTerm('Red', 'my-red', 'pa_my-colors', 10)
+#1 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\wp-admin\admin-ajax.php(22): require_once('E:\\OpenServer\\d...')
+#5 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 85
+
+2022-02-28T08:59:20+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:85
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php(94): createTerm('Red', 'my-red', 'pa_my-colors', 10)
+#1 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\wp-admin\admin.php(34): require_once('E:\\OpenServer\\d...')
+#5 E:\OpenServer\domains\noorlogic\wp-admin\edit.php(10): require_once('E:\\OpenServer\\d...')
+#6 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 85
+
+2022-02-28T08:59:21+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:85
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php(94): createTerm('Red', 'my-red', 'pa_my-colors', 10)
+#1 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\wp-blog-header.php(13): require_once('E:\\OpenServer\\d...')
+#5 E:\OpenServer\domains\noorlogic\index.php(17): require('E:\\OpenServer\\d...')
+#6 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 85
+
+2022-02-28T08:59:24+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:85
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php(94): createTerm('Red', 'my-red', 'pa_my-colors', 10)
+#1 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\wp-admin\admin-ajax.php(22): require_once('E:\\OpenServer\\d...')
+#5 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 85
+
+2022-02-28T08:59:24+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:85
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php(94): createTerm('Red', 'my-red', 'pa_my-colors', 10)
+#1 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\wp-admin\admin.php(34): require_once('E:\\OpenServer\\d...')
+#5 E:\OpenServer\domains\noorlogic\wp-admin\edit.php(10): require_once('E:\\OpenServer\\d...')
+#6 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 85
+
+2022-02-28T08:59:24+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:85
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php(94): createTerm('Red', 'my-red', 'pa_my-colors', 10)
+#1 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\wp-blog-header.php(13): require_once('E:\\OpenServer\\d...')
+#5 E:\OpenServer\domains\noorlogic\index.php(17): require('E:\\OpenServer\\d...')
+#6 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 85
+
+2022-02-28T08:59:57+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:85
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php(94): createTerm('Red', 'my-red', 'pa_my-colors', 10)
+#1 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\wp-admin\admin.php(34): require_once('E:\\OpenServer\\d...')
+#5 E:\OpenServer\domains\noorlogic\wp-admin\edit.php(10): require_once('E:\\OpenServer\\d...')
+#6 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 85
+
+2022-02-28T08:59:58+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:85
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php(94): createTerm('Red', 'my-red', 'pa_my-colors', 10)
+#1 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\wp-blog-header.php(13): require_once('E:\\OpenServer\\d...')
+#5 E:\OpenServer\domains\noorlogic\index.php(17): require('E:\\OpenServer\\d...')
+#6 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 85
+
+2022-02-28T09:00:21+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:85
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php(94): createTerm('Red', 'my-red', 'pa_my-colors', 10)
+#1 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\wp-admin\admin.php(34): require_once('E:\\OpenServer\\d...')
+#5 E:\OpenServer\domains\noorlogic\wp-admin\edit.php(10): require_once('E:\\OpenServer\\d...')
+#6 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 85
+
+2022-02-28T09:00:22+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:85
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php(94): createTerm('Red', 'my-red', 'pa_my-colors', 10)
+#1 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\wp-blog-header.php(13): require_once('E:\\OpenServer\\d...')
+#5 E:\OpenServer\domains\noorlogic\index.php(17): require('E:\\OpenServer\\d...')
+#6 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 85
+
+2022-02-28T15:32:45+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 47
+
+2022-02-28T15:34:46+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 47
+
+2022-02-28T15:36:47+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 47
+
+2022-02-28T16:12:31+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 47
+
+2022-02-28T16:12:32+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 47
+
+2022-02-28T16:12:55+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 47
+
+2022-02-28T16:12:56+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 47
+
+2022-02-28T16:13:02+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 47
+
+2022-02-28T16:13:02+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 47
+
+2022-02-28T16:13:06+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 47
+
+2022-02-28T16:13:08+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 47
+
+2022-02-28T16:13:09+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 47
+
+2022-02-28T16:14:07+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 47
+

@@ -1,0 +1,31 @@
+2022-03-01T08:41:30+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:108
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-includes\class-wp-hook.php(307): display_acf_single_product_pages('')
+#1 E:\OpenServer\domains\noorlogic\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\OpenServer\domains\noorlogic\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 E:\OpenServer\domains\noorlogic\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(33): do_action('woocommerce_bef...')
+#4 E:\OpenServer\domains\noorlogic\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('E:\\OpenServer\\d...')
+#5 E:\OpenServer\domains\noorlogic\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1676): wc_get_template('single-product/...')
+#6 E:\OpenServer\domains\noorlogic\wp-includes\class-wp-hook.php(307): woocommerce_simple_add_to_cart('')
+#7 E:\OpenServer\domains\no in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 108
+
+2022-03-01T09:25:51+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_wp_checkbox() in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:120
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include()
+#1 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-blog-header.php(13): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\index.php(17): require('E:\\OpenServer\\d...')
+#5 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 120
+
+2022-03-01T09:25:52+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_wp_checkbox() in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php:120
+Stack trace:
+#0 E:\OpenServer\domains\noorlogic\wp-settings.php(555): include()
+#1 E:\OpenServer\domains\noorlogic\wp-config.php(96): require_once('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\noorlogic\wp-load.php(50): require_once('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\noorlogic\wp-blog-header.php(13): require_once('E:\\OpenServer\\d...')
+#4 E:\OpenServer\domains\noorlogic\index.php(17): require('E:\\OpenServer\\d...')
+#5 {main}
+  thrown in E:\OpenServer\domains\noorlogic\wp-content\themes\storefront-child\functions.php on line 120
+

@@ -1,0 +1,28 @@
+.woocommerce-loop-product__link > h2{
+    font-size: 30px;
+    color: black;
+}
+
+.wc-block-grid__product-onsale, .onsale {
+    border-color: #2d642d !important;
+    color: #2d642d !important;
+}
+a:focus {
+    outline: 2px solid transparent;
+
+}
+ul.products li.product .woocommerce-LoopProduct-link{
+    padding: 20px;
+}
+.form-field ._input_radio_field .show_if_simple{
+    display: block !important;
+}
+
+@media (min-width: 768px){
+    .right-sidebar .content-area {
+        width: 100%;
+    }
+    .col-full {
+        max-width: 70em!important;
+    }
+}
